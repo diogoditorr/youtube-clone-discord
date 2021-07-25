@@ -34,8 +34,9 @@ const ChannelData: React.FC = () => {
                     date="21/06/2020"
                     content={
                         <>
-                            <Mention>@Guilherme Rodz</Mention>, me carrega no Lol e CS de novo
-                            por favor?
+                            <Mention>@Guilherme Rodz</Mention>, me carrega no Lol e CS de novo por favor?
+                            me carrega no Lol e CS de novo por favor?,me carrega no Lol e CS de novo por favor?
+                            , mecarrega no Lol e CS de novo por favor?, mecarrega no Lol e CS de novo por favor?, mecarrega no Lol e CS de novo por favor?
                         </>
                     }
                     hasMention

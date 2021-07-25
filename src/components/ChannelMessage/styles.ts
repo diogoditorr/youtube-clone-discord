@@ -22,6 +22,7 @@ export const Container = styled.div`
 `;
 
 export const Avatar = styled.div`
+    min-width: 40px;
     width: 40px;
     height: 40px;
 
@@ -47,7 +48,14 @@ export const Header = styled.div`
     display: flex;
     align-items: center;
 
+
     > strong {
+        max-width: 250px;
+
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+
         color: var(--white);
         font-size: 16px;
     }
@@ -73,6 +81,8 @@ export const Header = styled.div`
 `;
 
 export const Content = styled.div`
+    overflow-wrap: break-word;
+
     text-align: left;
     font-size: 16px;
     color: var(--white);
